@@ -1,4 +1,4 @@
-[y, Fs] = audioread('violin_9.flac');
+[y, Fs] = audioread('Real-world_train_data/violin_9.flac');
 pred_freq = 3;
 for i = 1:ceil(length(y)/Fs*pred_freq)
     ind1 = (i-1)*Fs/pred_freq+1;
