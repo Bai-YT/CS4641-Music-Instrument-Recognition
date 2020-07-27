@@ -1,0 +1,9 @@
+tensorflow
+keras
+librosa
+numpy
+seaborn
+scipy
+seaborn
+pydot
+graphviz

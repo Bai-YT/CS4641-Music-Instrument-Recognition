@@ -1,0 +1,9 @@
+unzip ./audio/*.zip -d ./audio
+pip install git+git://github.com/pytorch/audio
+mkdir ./checkpoints
+jupyter trust *.ipynb
+#jupyter trust BasicsMusicaInstrumentsClassifkNN.ipynb
+#jupyter trust BasicsMusicaInstrumentsClassifSVM.ipynb
+#jupyter trust BasicsMusicaInstrumentsClassifSVMGridSearch.ipynb
+#jupyter trust BasicsMusicaInstrumentsClassifDNKeras1.ipynb
+#jupyter trust BasicsMusicaInstrumentsClassifDNKeras2GridSearch.ipynb
